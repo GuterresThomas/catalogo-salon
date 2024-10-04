@@ -1,0 +1,57 @@
+{
+    "EssentialHaircare": [
+      {
+        "id": 1,
+        "name": "DEDE Shampoo",
+        "description": "Shampoo delicado para uso diário, ideal para cabelos finos e delicados.",
+        "price": 100.0,
+        "volume": "250ml",
+        "image": "/dede-shampoo.webp"
+      },
+      {
+        "id": 2,
+        "name": "DEDE Conditioner",
+        "description": "Condicionador leve para desembaraçar e hidratar cabelos finos.",
+        "price": 120.0,
+        "volume": "250ml",
+        "image": "/images/dede-conditioner.jpg"
+      }
+    ],
+    "OI": [
+      {
+        "id": 3,
+        "name": "OI Shampoo",
+        "description": "Shampoo antioxidante, rico em óleo de Roucou, que proporciona brilho extraordinário.",
+        "price": 130.0,
+        "volume": "280ml",
+        "image": "/images/oi-shampoo.jpg"
+      },
+      {
+        "id": 4,
+        "name": "OI Conditioner",
+        "description": "Condicionador antioxidante que oferece hidratação profunda e maciez.",
+        "price": 150.0,
+        "volume": "280ml",
+        "image": "/images/oi-conditioner.jpg"
+      }
+    ],
+    "MoreInside": [
+      {
+        "id": 5,
+        "name": "This Is A Sea Salt Spray",
+        "description": "Spray de sal marinho que cria volume e textura com um efeito de praia natural.",
+        "price": 140.0,
+        "volume": "250ml",
+        "image": "/images/sea-salt-spray.jpg"
+      },
+      {
+        "id": 6,
+        "name": "This Is A Strong Hairspray",
+        "description": "Spray de fixação forte que mantém o penteado no lugar sem pesar.",
+        "price": 160.0,
+        "volume": "400ml",
+        "image": "/images/strong-hairspray.jpg"
+      }
+    ]
+  }
+  
