@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 'use client'
 import React, { useState, useEffect } from 'react';
-
+import MenuBar from '../../components/menuBar'
 export default function Page() {
   // Função para buscar os produtos do arquivo JSON
   const fetchProducts = async () => {
@@ -30,7 +30,7 @@ export default function Page() {
         {/* Dropdown para escolher a linha de produtos */}
         <div className="mb-6">
           <label htmlFor="line-select" className="block text-lg font-medium text-gray-700 mb-2">
-            Select Product Line:
+            Selecione a linha de produtos:
           </label>
           <select
             id="line-select"
@@ -40,7 +40,7 @@ export default function Page() {
           >
             <option value="EssentialHaircare">Essential Haircare</option>
             <option value="OI">OI</option>
-            <option value="MoreInside">More Inside</option>
+            <option value="Naturaltech">Natural Tech</option>
           </select>
         </div>
 
@@ -67,7 +67,8 @@ export default function Page() {
   // Renderizando o ProductList dentro do Page
   return (
     <div>
-      <h1 className="text-3xl font-bold text-center mb-6">Catálogo de Produtos Davines</h1>
+      <MenuBar/>
+      <h1 className="text-3xl font-bold text-center mb-6">Nossos Produtos Davines</h1>
       <ProductList />
     </div>
   );

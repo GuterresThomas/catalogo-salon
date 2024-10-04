@@ -1,57 +1,104 @@
 {
-    "EssentialHaircare": [
-      {
-        "id": 1,
-        "name": "DEDE Shampoo",
-        "description": "Shampoo delicado para uso diário, ideal para cabelos finos e delicados.",
-        "price": 100.0,
-        "volume": "250ml",
-        "image": "/dede-shampoo.webp"
-      },
-      {
-        "id": 2,
-        "name": "DEDE Conditioner",
-        "description": "Condicionador leve para desembaraçar e hidratar cabelos finos.",
-        "price": 120.0,
-        "volume": "250ml",
-        "image": "/images/dede-conditioner.jpg"
-      }
-    ],
-    "OI": [
-      {
-        "id": 3,
-        "name": "OI Shampoo",
-        "description": "Shampoo antioxidante, rico em óleo de Roucou, que proporciona brilho extraordinário.",
-        "price": 130.0,
-        "volume": "280ml",
-        "image": "/images/oi-shampoo.jpg"
-      },
-      {
-        "id": 4,
-        "name": "OI Conditioner",
-        "description": "Condicionador antioxidante que oferece hidratação profunda e maciez.",
-        "price": 150.0,
-        "volume": "280ml",
-        "image": "/images/oi-conditioner.jpg"
-      }
-    ],
-    "MoreInside": [
-      {
-        "id": 5,
-        "name": "This Is A Sea Salt Spray",
-        "description": "Spray de sal marinho que cria volume e textura com um efeito de praia natural.",
-        "price": 140.0,
-        "volume": "250ml",
-        "image": "/images/sea-salt-spray.jpg"
-      },
-      {
-        "id": 6,
-        "name": "This Is A Strong Hairspray",
-        "description": "Spray de fixação forte que mantém o penteado no lugar sem pesar.",
-        "price": 160.0,
-        "volume": "400ml",
-        "image": "/images/strong-hairspray.jpg"
-      }
-    ]
-  }
-  
+  "EssentialHaircare": [
+    {
+      "id": 1,
+      "name": "DEDE Shampoo",
+      "description": "Shampoo delicado para uso diário, ideal para cabelos finos e delicados.",
+      "price": 100.0,
+      "volume": "250ml",
+      "image": "/dede-shampoo.webp"
+    },
+    {
+      "id": 2,
+      "name": "DEDE Conditioner",
+      "description": "Condicionador leve para desembaraçar e hidratar cabelos finos.",
+      "price": 120.0,
+      "volume": "250ml",
+      "image": "/images/dede-conditioner.jpg"
+    },
+    {
+      "id": 7,
+      "name": "MOMO Shampoo",
+      "description": "Shampoo hidratante para cabelos secos ou desidratados.",
+      "price": 110.0,
+      "volume": "250ml",
+      "image": "/images/momo-shampoo.jpg"
+    },
+    {
+      "id": 8,
+      "name": "MOMO Conditioner",
+      "description": "Condicionador rico em minerais, ideal para cabelos secos ou quebradiços.",
+      "price": 130.0,
+      "volume": "250ml",
+      "image": "/images/momo-conditioner.jpg"
+    }
+  ],
+  "OI": [
+    {
+      "id": 3,
+      "name": "OI Shampoo",
+      "description": "Shampoo antioxidante, rico em óleo de Roucou, que proporciona brilho extraordinário.",
+      "price": 130.0,
+      "volume": "280ml",
+      "image": "/images/oi-shampoo.jpg"
+    },
+    {
+      "id": 4,
+      "name": "OI Conditioner",
+      "description": "Condicionador antioxidante que oferece hidratação profunda e maciez.",
+      "price": 150.0,
+      "volume": "280ml",
+      "image": "/images/oi-conditioner.jpg"
+    },
+    {
+      "id": 9,
+      "name": "OI Oil",
+      "description": "Óleo multifuncional para controle de frizz e brilho imediato.",
+      "price": 200.0,
+      "volume": "135ml",
+      "image": "/images/oi-oil.jpg"
+    },
+    {
+      "id": 10,
+      "name": "OI All In One Milk",
+      "description": "Leave-in multifuncional que oferece maciez, desembaraço e proteção térmica.",
+      "price": 170.0,
+      "volume": "135ml",
+      "image": "/images/oi-all-in-one-milk.jpg"
+    }
+  ],
+  "Naturaltech": [
+    {
+      "id": 13,
+      "name": "Replumping Shampoo",
+      "description": "Shampoo hidratante que proporciona elasticidade aos cabelos desidratados.",
+      "price": 145.0,
+      "volume": "300ml",
+      "image": "/images/replumping-shampoo.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Replumping Conditioner",
+      "description": "Condicionador que ajuda a dar elasticidade e hidratação aos cabelos.",
+      "price": 155.0,
+      "volume": "150ml",
+      "image": "/images/replumping-conditioner.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Nourishing Shampoo",
+      "description": "Shampoo nutritivo para cabelos secos e danificados.",
+      "price": 140.0,
+      "volume": "250ml",
+      "image": "/images/nourishing-shampoo.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Nourishing Vegetarian Miracle Conditioner",
+      "description": "Condicionador nutritivo para cabelos extremamente secos ou danificados.",
+      "price": 180.0,
+      "volume": "250ml",
+      "image": "/images/nourishing-vegetarian-miracle.jpg"
+    }
+  ]
+}
